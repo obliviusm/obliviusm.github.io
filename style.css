@@ -1,0 +1,75 @@
+body {
+   /* background-color: #ffa774;*/
+}
+td {
+    /*background-image: url(queen.gif);*/
+    height: 20px;
+    width: 20px;
+    border: solid 1px;
+}
+table {
+    border-width: 1px;
+    /*border-color: white;*/
+    border-spacing: 0px;
+}
+td.black {
+    background-color: black;
+}
+td.white {
+    background-color: white;
+}
+td.queen {
+    background-image: url(queen.png);
+}
+td.pawn {
+    background-image: url(pawn.png);
+}
+#options {
+    width: 20%;
+    position: absolute; 
+    top: 15px; 
+    right: 15px; 
+    line-height: 1px;
+    -webkit-border-radius:6px; 
+    -moz-border-radius:5px; 
+    -khtml-border-radius:10px;
+    background-color: #13cdf1;
+    padding: 10px;
+}
+#stat {
+    width: 20%;
+    /*height: 300px;*/  
+    position: absolute; 
+    top: 300px; 
+    right: 15px; 
+    line-height: 1px;
+    -webkit-border-radius:6px; 
+    -moz-border-radius:5px; 
+    -khtml-border-radius:10px;
+    background-color: #13cdf1;
+    padding: 10px;
+}
+#field {
+    width: 75%;
+    /*background-color: #e4f0f2;*/
+    padding: 10px;
+}
+.board {
+    position: relative;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+    -webkit-border-radius:6px; 
+    -moz-border-radius:5px; 
+    -khtml-border-radius:10px;
+    background-color: #6fa7eb;
+}
+.iteration {
+    clear:both;
+}
+.contour_last {
+    border: solid 1px red;
+}
+.contour_new {
+    border: solid 1px lime;
+}
